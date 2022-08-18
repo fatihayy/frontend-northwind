@@ -18,6 +18,7 @@ import { ProductAddComponent } from './components/product-add/product-add.compon
 import { LoginComponent } from './components/login/login.component';
 import { AuthInterceptor } from './interceptors/auth.interceptor';
 import { LoginPageComponent } from './components/login-page/login-page.component';
+import { ProductAddPageComponent } from './components/product-add-page/product-add-page.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LoginPageComponent } from './components/login-page/login-page.component
     CartSummaryComponent,
     ProductAddComponent,
     LoginComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    ProductAddPageComponent
   ],
   imports: [
     BrowserModule,

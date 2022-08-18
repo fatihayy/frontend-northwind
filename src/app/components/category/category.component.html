@@ -1,5 +1,5 @@
 <ul class="list-group">
-  <li [class]="getAllCategoryClass()"
+  <li [class]="getAllCategoryClass()" (click)="setCurrentCategory(null)"
     routerLink="/products">All Products</li>
     <li (click) = "setCurrentCategory(category)" 
     routerLink="/products/category/{{category.categoryId}}"
